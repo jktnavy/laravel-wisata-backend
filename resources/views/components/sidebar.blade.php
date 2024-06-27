@@ -18,6 +18,11 @@
                     <a href="{{ route('users.index') }}" class="nav-link "><i class="fas fa-columns"></i>
                         <span>Users</span></a>
                 </li>
+
+                <li class="nav-item ">
+                    <a href="{{ route('categories.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                        <span>Categories</span></a>
+                </li>
             </li>
         </ul>
 

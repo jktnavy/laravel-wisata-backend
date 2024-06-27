@@ -20,5 +20,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'heden@travel.com',
             'password' => Hash::make('12345678'),
         ]);
+
+        \App\Models\Category::factory(5)->create();
     }
 }
